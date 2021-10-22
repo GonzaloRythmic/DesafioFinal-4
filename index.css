@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.bienvenida{
+    height: 616px;
+    width:100%;
+    background: url(./img/image\ 4.png);
+    background-size: cover;
+    display: inherit;
+}
+.bienvenida__header__img{
+    width: 122px;
+    height: 122px;
+}
+.bienvenida__header{
+    display: flex;
+    justify-content: space-between;
+}
+.bienvenida__header__menu{
+    margin-top: 45px;
+}
+.bienvenida__texto__conteiner{
+    
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bienvenida__texto, .bienvenida__texto-subtitulo {
+    font-family: "Montserrat";
+    font-size: 48px;
+    color: white;
+    margin: 0px;
+}
+.bienvenida__texto-subtitulo{
+    font-size: 32px;
+}
+
+
+
+
+.presentacion{
+    background-color: #141414;
+    width: 100%;
+    height: 368px;
+}
+.presentacion__conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 30px;    
+}
+.presentacion__texto{
+    font-family: "Poppins";
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+.mis-servicios{
+    width: 100%;
+    height: 1375px;
+    background-color: #FAFAFA;
+}
+.mis-servicios__conteiner{
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+    gap: 2%;
+    margin-top: 50px;
+    width: 100%;
+    padding: 0 10%;
+}
+.mis-servicios__texto{
+    color: #2C2C2C;
+    text-align: center;
+    margin-top: 20%;
+}
+.mis-servicios__card__img{
+    width: 100%;
+    height: 200px;
+}
+.mis-servicios__card{
+    border: solid 2px;
+    border-radius: 4px;
+    width: 100%;
+}
+.mis-servicios__titulo{
+    font-family: "Montserrat";
+    font-size: 32px;
+    text-align: center;
+}
+.mis-servicios__parrafo{
+    font-family: "Poppins";
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+.contacto{
+    height: 660px;
+    width: 100%;
+    background-color: #141414;
+    padding-top: 70px;
+}
+.form--conteiner{
+    padding: 0 20px;
+}
+.form__title{
+    font-family: "Montserrat";
+    font-size: 32px;
+    color: #FAFAFA;
+    text-align: center;
+}
+.form__subtitle{
+    font-family: "Poppins";
+    font-size: 13px;
+    color: #FAFAFA;
+}
+.form__input{
+    width: 335px;
+    height: 45px;
+}
+.form__input__textarea{
+    height: 144px;
+}
+.form__button{
+    width: 335px;
+    height: 45px;
+    background-color: #2C2C2C;
+    margin-top: 50px;
+}
+.form__button-text{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.footer{
+    background-color: #2C2C2C;
+    width: 375px;
+    height: 498px;
+}
+.footer__img-conteiner, .footer__img-conteiner--redes{
+    display: grid;
+    gap: 10%;
+    justify-content: center;
+}
+.footer__img-conteiner--redes{
+    gap: 30%; 
+}
+
+
+
+
+
+
+
+.content{
+    background-color: #161616;
+    height: 616px;
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+.cerrar-content{
+ text-align: right;
+ margin-top: 7%;
+ margin-right: 7%;
+    
+}
+.options__text{
+    font-family: "Montserrat";
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
