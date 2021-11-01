@@ -7,6 +7,7 @@
     <title>GonzaloPage</title>
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
@@ -21,13 +22,13 @@
 
         <div class="content">
             <div class="cerrar-content">
-                <img src="./Vector.png">
+                <img src="/img/Vector.png">
             </div>
             <div class="options">
                 <h2 class="options__text">
                    <a href="./portfolio/portfolio.html">Portfolio</a>
-                   <a href="">servicios</a>
-                   <a href="">Contacto</a>
+                   <a href="./servicios/servicios.html">Servicios</a>
+                   <a href="./contacto/contacto.html">Contacto</a>
                 </h2>
             </div>
         </div>
@@ -39,6 +40,11 @@
                     <img  src="./img/burger.png" alt="">
                 </div>
             </div>
+            <div class="header__options-teamplate">
+                <div class="header__options">Portfolio</div>
+                <div class="header__options">Servicios</div>
+                <div class="header__options">Contacto</div>
+            </div>
         </header>
         <div class="bienvenida__texto__conteiner">
         <h2 class="bienvenida__texto">Hola</h2>
@@ -48,23 +54,28 @@
 
     <section class="presentacion">
         <div class="presentacion__conteiner">
-            <h2 class="bienvenida__texto bienvenida__texto-subtitulo">Soy Gonza</h2>
-            <p class="presentacion__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minus obcaecati delectus ratione doloremque dolores quis voluptas hic voluptatem placeat nobis veritatis ex odio officiis illum, unde magni enim aperiam.</p>
+            <div class="presentacion__conteiner-title-parrafo">
+                <h2 class="bienvenida__texto bienvenida__texto-subtitulo, presentacion__conteiner, presentacion__title">Soy Gonza</h2>
+                <p class="presentacion__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minus obcaecati delectus ratione doloremque dolores quis voluptas hic voluptatem placeat nobis veritatis ex odio officiis illum, unde magni enim aperiam.</p>
+            </div>
+            <div class="presentacion__img-conteiner">
+                <img class="presentacion__img" src="/img/image 5.png" alt="">
+            </div>
         </div>
     </section>
 
-     <section class="mis-servicios">
-        <h2 class="bienvenida__texto bienvenida__texto-subtitulo mis-servicios__texto" > Mis servicios</h2>
+    <section class="mis-servicios">
+    <h2 class="bienvenida__texto bienvenida__texto-subtitulo mis-servicios__texto" > Mis servicios</h2>
         <template id="template-card">
-            <div>
-               <div class="mis-servicios__conteiner">
-                   <div class="mis-servicios__card">
-                       <img class="mis-servicios__card__img" src="" alt="">
-                       <h3 class="mis-servicios__titulo"></h3>
-                       <p class="mis-servicios__parrafo"></p>
-                   </div>
-               </div>  
-           </div>
+            <div class="mis-servicios__conteiner-full">
+                <div class="mis-servicios__conteiner">
+                    <div class="mis-servicios__card">
+                        <img class="mis-servicios__card__img" src="" alt="">
+                        <h3 class="mis-servicios__titulo"></h3>
+                        <p class="mis-servicios__parrafo"></p>
+                    </div>
+                </div>
+            </div>     
         </template>
     </section>
 

@@ -15,7 +15,7 @@ function addServiceCard (params){
 
 
 function getServices(){
-    return fetch('https://cdn.contentful.com/spaces/dxb7qs3xep4m/environments/master/entries?access_token=r3MKPI7nT3W0wQiibTHSZ6yOwnLnqY59BqiemAhzuiE&content_type=portfolio')
+    return fetch('https://cdn.contentful.com/spaces/dxb7qs3xep4m/environments/master/entries?access_token=r3MKPI7nT3W0wQiibTHSZ6yOwnLnqY59BqiemAhzuiE&content_type=services')
     .then(res=>{
         return res.json();
     }).then((json)=>{

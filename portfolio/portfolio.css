@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
 *{
     box-sizing: border-box;
 }
@@ -45,7 +49,7 @@ body{
     padding: 0 10%;
 }
 .mis-servicios__texto{
-    color: #2C2C2C;
+    color: white;
     text-align: center;
     margin-top: 20%;
 }
@@ -59,13 +63,25 @@ body{
     width: 100%;
 }
 .mis-servicios__titulo{
-    font-family: "Montserrat";
-    font-size: 32px;
+    font-family: "Poppins";
+    font-size: 16px;
     text-align: center;
+    color: white;
 }
 .mis-servicios__parrafo{
     font-family: "Poppins";
     font-size: 16px;
+    text-align: center;
+    color: white;
+}
+.portfolio__url{
+    font-family: "Poppins";
+    font-size: 24px;
+    color: #FC6F50
+}
+.portfolio__url-conteiner{
+    width: 262px;
+    height: 33px;
     text-align: center;
 }
 
