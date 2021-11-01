@@ -202,6 +202,12 @@ body{
 .form--conteiner{
     padding: 0 20px;
 }
+@media (min-width: 729px){
+    .form--conteiner{
+        padding: 0 25%;
+        text-align: center;
+    }
+}
 .form__title{
     font-family: "Montserrat";
     font-size: 32px;
@@ -219,6 +225,7 @@ body{
 }
 .form__input__textarea{
     height: 144px;
+    width: 335px;
 }
 .form__button{
     width: 335px;
@@ -243,6 +250,12 @@ body{
     width: 100%;
     height: 498px;
 }
+@media (min-width: 729px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}
 .footer__img-conteiner, .footer__img-conteiner--redes{
     display: grid;
     gap: 10%;
@@ -250,6 +263,11 @@ body{
 }
 .footer__img-conteiner--redes{
     gap: 30%; 
+}
+@media (min-width: 729px){
+    .footer__img-conteiner--redes{
+        gap: 1%;
+    }
 }
 
 
