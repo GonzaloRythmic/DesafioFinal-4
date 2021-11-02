@@ -14,8 +14,3 @@ function addElement(el) {
     el.appendChild(element);
 }
 
-function main (){
-    addElement(document.querySelector(".presentacion"));
-}
-
-main();

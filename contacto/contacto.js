@@ -75,9 +75,9 @@ function contactComponent(el) {
   }
 
 
-  function main() {
+  // function main() {
      
-    contactComponent(document.querySelector(".contacto"));
-  }
+  //   contactComponent(document.querySelector(".contacto"));
+  // }
 
-  main();
+  // main();

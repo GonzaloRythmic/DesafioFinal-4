@@ -1,4 +1,4 @@
-function main (){
+function burguerMenu () {
     const burguerButtonEl = document.querySelector(".bienvenida__burguer-button");
     const cerrarContentEl = document.querySelector(".cerrar-content");
     const contentEl =document.querySelector(".content");
@@ -12,4 +12,5 @@ function main (){
         contentEl.style.display = "";
     })
 }
-main ();
+
+
