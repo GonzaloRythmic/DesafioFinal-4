@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Document</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/index.css">
 
     <script defer src="/burguer-menu/burguer-menu.js"></script>
-
-
 </head>
 <body>
     <div class="content">
@@ -22,27 +22,30 @@
         </div>
         <div class="options">
             <h2 class="options__text">
-               <a href="./portfolio/portfolio.html">Portfolio</a>
+               <a href="/portfolio/portfolio.html">Portfolio</a>
                <a href="/servicios/servicios.html">Servicios</a>
                <a href="/contacto/contacto.html">Contacto</a>
             </h2>
         </div>
     </div>
-
-    <header class="bienvenida__header , bienvenida__header--contacto">
+    <header class="bienvenida__header">
         <img class="bienvenida__header__img" src="/img/Logo-Gonzalo.png">
         <div class="bienvenida__header__menu">
             <div class="bienvenida__burguer-button">
-                <img  src="/img/burger.png">
+                <img  src="/img/burger.png" alt="">
             </div>
         </div>
+        <div class="header__options-teamplate">
+            <a href="/portfolio/portfolio.html">Portfolio</a>
+               <a href="/servicios/servicios.html">Servicios</a>
+               <a href="/contacto/contacto.html">Contacto</a>   
+        </div>
     </header>
-
     <section class="contacto">
         <form class="form">
             <h2 class="form__title">Escribeme</h2>
             <div class="form--conteiner">
-             <label class="label__name" for="input-name">
+                <label class="label__name" for="input-name">
                 <h2 class="form__subtitle">Nombre</h2>
                 <input class="form__input" type="text" id="input-name">
                 </label>
@@ -58,10 +61,9 @@
             </div>
         </form>
     </section>
-
     <section class="footer">
         <div class="footer__img-conteiner">
-            <a href=""><img src="/img/Logo-Gonzalo.png"></a>
+            <a href=""><img class="bienvenida__header__img" src="/img/Logo-Gonzalo.png"></a>
         </div>
         <div class="footer__img-conteiner--redes">
             <a href="https://www.instagram.com/gonzalo.rythmic/?hl=es"><img src="/img/InstagramIcono.png"></a>
@@ -69,6 +71,5 @@
             <a href="https://github.com/GonzaloRythmic?tab=repositories"><img src="/img/GitHubIcono.png"></a>
         </div>
     </section>
-    
 </body>
 </html>

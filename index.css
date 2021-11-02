@@ -37,6 +37,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
+@media (min-width: 729px){
+    .bienvenida__header{
+       
+    }
+}
 .bienvenida__header--contacto{
     background-color: #2C2C2C;;
 }
@@ -170,13 +175,18 @@ body{
     margin-top: 20%;
 }
 .mis-servicios__card__img{
-    width: 100%;
-    height: 200px;
+    max-width: 200px;
+    height: 190px;
+    
 }
 .mis-servicios__card{
     border: solid 2px;
     border-radius: 4px;
     width: 100%;
+}
+.mis-servicios__card__img__conteiner{
+    width: 100%;
+    text-align: center;
 }
 .mis-servicios__titulo{
     font-family: "Montserrat";
@@ -188,7 +198,15 @@ body{
     font-size: 16px;
     text-align: center;
 }
-
+.proximamente{
+    text-align: center;
+    margin-top: 25%;
+}
+.proximamente__title{
+    font-family: "Poppins";
+    font-size: 48px;
+    color: red;
+}
 
 
 
@@ -201,11 +219,11 @@ body{
 }
 .form--conteiner{
     padding: 0 20px;
+    text-align: center;
 }
 @media (min-width: 729px){
     .form--conteiner{
         padding: 0 25%;
-        text-align: center;
     }
 }
 .form__title{
@@ -254,6 +272,8 @@ body{
     .footer{
         display: flex;
         justify-content: space-between;
+        height: 346px;
+        text-align: center;
     }
 }
 .footer__img-conteiner, .footer__img-conteiner--redes{
@@ -262,11 +282,14 @@ body{
     justify-content: center;
 }
 .footer__img-conteiner--redes{
-    gap: 30%; 
+    display: grid;
+    gap:10%; 
 }
 @media (min-width: 729px){
     .footer__img-conteiner--redes{
-        gap: 1%;
+        padding-top: 4%;
+        padding-bottom: 20%;
+        padding-right: 5%;
     }
 }
 

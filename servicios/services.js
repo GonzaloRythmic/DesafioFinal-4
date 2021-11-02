@@ -1,3 +1,20 @@
+
+function addElement(el) {
+    const element = document.createElement("div");
+  
+    element.innerHTML = `
+        <div class="mis-servicios__conteiner-full">
+            <div class="mis-servicios__conteiner">
+                <div class="mis-servicios__card">
+                    <img class="mis-servicios__card__img" src="" alt="">
+                    <h3 class="mis-servicios__titulo"></h3>
+                    <p class="mis-servicios__parrafo"></p>
+                </div>
+            </div>
+        </div>`;
+    el.appendChild(element);
+}
+
 function addServiceCard (params){
     console.log(params);
 
@@ -33,13 +50,14 @@ function getServices(){
 }
 
 
+
 function main (){
     getServices().then(function (services) {
         for (const service of services) {
             addServiceCard(service);
         }
     })
-
+    addElement(document.querySelector("#template-card"))
 }   
 
 main();
