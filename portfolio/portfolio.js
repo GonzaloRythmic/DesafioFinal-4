@@ -39,6 +39,7 @@ function main (){
             addServiceCard(service);
         }
     })
+    headerComponent(document.querySelector(".portfolio"));
     burguerMenu();
 }   
 
