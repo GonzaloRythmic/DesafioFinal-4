@@ -58,6 +58,7 @@ function main (){
         }
     })
     addElement(document.querySelector("#template-card"))
+    burguerMenu();
 }   
 
 main();

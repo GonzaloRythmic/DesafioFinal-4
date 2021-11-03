@@ -39,7 +39,7 @@ function main (){
             addServiceCard(service);
         }
     })
-
+    burguerMenu();
 }   
 
 main();
