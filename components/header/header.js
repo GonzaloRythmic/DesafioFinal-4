@@ -4,7 +4,7 @@ function headerComponent (el){
     headerEL.innerHTML = `
     <div class="content">
             <div class="cerrar-content">
-                <img src="./img/Vector.png">
+                <img src="../img/Vector.png">
             </div>
             <div class="options">
                 <h2 class="options__text">
@@ -15,7 +15,7 @@ function headerComponent (el){
             </div>
         </div>
     <header class="bienvenida__header">
-            <img class="bienvenida__header__img" src="./img/Logo-Gonzalo.png">
+            <img class="bienvenida__header__img" src="../img/Logo-Gonzalo.png">
             <div class="bienvenida__header__menu">
                 <div class="bienvenida__burguer-button">
                     <img  src="./img/burger.png" alt="">
