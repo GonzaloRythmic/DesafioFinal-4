@@ -4,7 +4,7 @@ function headerComponent (el){
     headerEL.innerHTML = `
     <div class="content">
             <div class="cerrar-content">
-                <img src="../img/Vector.png">
+                <img src="./img/Vector.png">
             </div>
             <div class="options">
                 <h2 class="options__text">
