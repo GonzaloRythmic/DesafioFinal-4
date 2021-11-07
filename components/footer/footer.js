@@ -3,7 +3,7 @@ function footerComponent (el){
 
     headerEL.innerHTML = `
     <div class="footer__img-conteiner">
-        <a href=""><img class="bienvenida__header__img" src="./img/Logo-Gonzalo.png"></a>
+        <a href=""><img class="bienvenida__header__img" src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/Logo-Gonzalo.png?raw=true"></a>
     </div>
     <div class="footer__img-conteiner--redes">
         <a href="https://www.instagram.com/gonzalo.rythmic/?hl=es"><img src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/InstagramIcono.png?raw=true"></a>

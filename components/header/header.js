@@ -4,7 +4,7 @@ function headerComponent (el){
     headerEL.innerHTML = `
     <div class="content">
             <div class="cerrar-content">
-                <img src="./img/Vector.png">
+                <img src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/Vector.png?raw=true">
             </div>
             <div class="options">
                 <h2 class="options__text">
@@ -18,7 +18,7 @@ function headerComponent (el){
             <img class="bienvenida__header__img" src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/Logo-Gonzalo.png?raw=true">
             <div class="bienvenida__header__menu">
                 <div class="bienvenida__burguer-button">
-                    <img  src="./img/burger.png" alt="">
+                    <img  src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/burger.png?raw=true" alt="">
                 </div>
             </div>
             <div class="header__options-teamplate">
