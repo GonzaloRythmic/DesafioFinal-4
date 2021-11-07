@@ -8,7 +8,7 @@ function headerComponent (el){
             </div>
             <div class="options">
                 <h2 class="options__text">
-                   <a href="../portfolio/portfolio.html">Portfolio</a>
+                   <a href="/portfolio/portfolio.html">Portfolio</a>
                    <a href="../servicios/servicios.html">Servicios</a>
                    <a href="../contacto/contacto.html">Contacto</a>
                 </h2>
