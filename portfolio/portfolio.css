@@ -38,7 +38,6 @@ body{
     font-size: 48px;
     color: white;
     text-align: center;
-    margin-top: 103px;
 }
 .mis-servicios__conteiner{
     display: grid;
@@ -84,7 +83,10 @@ body{
     height: 33px;
     text-align: center;
 }
-
+.estamos-trabajando__img{
+    max-width: 200px;
+    max-height: 180px;   
+}
 
 
 .footer{

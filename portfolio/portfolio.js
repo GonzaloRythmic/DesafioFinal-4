@@ -39,8 +39,9 @@ function main (){
             addServiceCard(service);
         }
     })
-    headerComponent(document.querySelector(".portfolio"));
+    headerComponent(document.querySelector(".header__portfolio"));
     burguerMenu();
+    footerComponent(document.querySelector(".footer"));
 }   
 
 main();

@@ -75,6 +75,9 @@ function contactComponent(el) {
 }
 
 function main (){
+  headerComponent(document.querySelector(".header__contact"));
   burguerMenu();
+  contactComponent(document.querySelector(".contacto"))
+  footerComponent(document.querySelector(".footer"))
 }
 main();

@@ -58,7 +58,9 @@ function main (){
         }
     })
     addElement(document.querySelector("#template-card"))
+    headerComponent(document.querySelector(".servicio__header"))
     burguerMenu();
+    footerComponent(document.querySelector(".footer"))
 }   
 
 main();

@@ -1,7 +1,7 @@
 function main () {
     //Apendeamos los elementos.
     //header
-    headerComponent (document.querySelector(".bienvenida"));
+    headerComponent (document.querySelector(".header__header"));
     //presentacion
     addElement(document.querySelector(".presentacion"));
     //form
