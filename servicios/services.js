@@ -19,7 +19,7 @@ function addServiceCard (params){
     console.log(params);
 
     const template = document.querySelector("#template-card");
-    const contentCard = document.querySelector(".template-card");
+    const contentCard = document.querySelector(".servicio__conteiner");
 
     template.content.querySelector(".mis-servicios__titulo").textContent = params.title;
     template.content.querySelector(".mis-servicios__parrafo").textContent = params.description;
