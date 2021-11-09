@@ -11,6 +11,13 @@ function main () {
     
     //JS del burguerMenu
     burguerMenu();
+
+    addElement(document.querySelector("#template-card"))
+    getServices().then(function (services) {
+        for (const service of services) {
+            addServiceCard(service);
+        }
+    })
 }
 
 main ();

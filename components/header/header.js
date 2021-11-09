@@ -9,16 +9,16 @@ function headerComponent (el){
             <div class="options">
                 <h2 class="options__text">
                    <a href="https://gonzalorythmic.github.io/DesafioFinal-4/portfolio/portfolio.html">Portfolio</a>
-                   <a href="https://gonzalorythmic.github.io/DesafioFinal-4/servicios/servicios.html">Servicios</a>
+                   <a href="./servicios/servicios.html">Servicios</a>
                    <a href="https://gonzalorythmic.github.io/DesafioFinal-4/contacto/contacto.html">Contacto</a>
                 </h2>
             </div>
         </div>
     <header class="bienvenida__header">
-            <img class="bienvenida__header__img" src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/Logo-Gonzalo.png?raw=true">
+            <a href="https://gonzalorythmic.github.io/DesafioFinal-4"><img class="bienvenida__header__img" src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/Logo-Gonzalo.png?raw=true"></a>
             <div class="bienvenida__header__menu">
                 <div class="bienvenida__burguer-button">
-                    <img  src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/burger.png?raw=true" alt="">
+                    <img src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/burger.png?raw=true" alt="">
                 </div>
             </div>
             <div class="header__options-teamplate">
