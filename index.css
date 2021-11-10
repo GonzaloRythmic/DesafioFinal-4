@@ -284,8 +284,6 @@ body{
 }
 @media (min-width: 729px){
     .footer{
-        display: flex;
-        justify-content: space-between;
         height: 346px;
         text-align: center;
     }
@@ -340,4 +338,12 @@ body{
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+
+
+
+@media (min-width: 729px){
+    .header__contact{
+        background: linear-gradient(107.17deg, #408195 29.35%, rgba(0, 210, 135, 0.8) 78.73%);
+    }
 }
