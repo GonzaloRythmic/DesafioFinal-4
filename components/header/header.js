@@ -9,7 +9,7 @@ function headerComponent (el){
             <div class="options">
                 <h2 class="options__text">
                    <a href="https://gonzalorythmic.github.io/DesafioFinal-4/portfolio/portfolio.html">Portfolio</a>
-                   <a href="./servicios/servicios.html">Servicios</a>
+                   <a href="https://gonzalorythmic.github.io/DesafioFinal-4/servicios/servicios.html">Servicios</a>
                    <a href="https://gonzalorythmic.github.io/DesafioFinal-4/contacto/contacto.html">Contacto</a>
                 </h2>
             </div>
