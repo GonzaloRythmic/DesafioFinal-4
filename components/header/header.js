@@ -8,9 +8,9 @@ function headerComponent (el){
             </div>
             <div class="options">
                 <h2 class="options__text">
-                    <a href="./portfolio/portfolio.html">Portfolio</a>
-                    <a href="./servicios/servicios.html">Servicios</a>
-                    <a href="./contacto/contacto.html">Contacto</a>  
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./servicios.html">Servicios</a>
+                    <a href="./contacto.html">Contacto</a>  
                 </h2>
             </div>
         </div>
@@ -22,9 +22,9 @@ function headerComponent (el){
                 </div>
             </div>
             <div class="header__options-teamplate">
-                <a href="./portfolio/portfolio.html">Portfolio</a>
-                <a href="./servicios/servicios.html">Servicios</a>
-                <a href="./contacto/contacto.html">Contacto</a>   
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="./servicios.html">Servicios</a>
+                <a href="./contacto.html">Contacto</a>   
             </div>
         </header>
         `;
