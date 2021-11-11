@@ -238,6 +238,12 @@ body{
 @media (min-width: 729px){
     .form--conteiner{
         padding: 0 25%;
+        justify-content: center;
+    }
+}
+@media(min-width: 729px){
+    .form{
+        display: flex;
     }
 }
 .form__title{
