@@ -23,8 +23,8 @@ function headerComponent (el){
             </div>
             <div class="header__options-teamplate">
                 <a href="./portfolio/portfolio.html">Portfolio</a>
-                   <a href="/servicios/servicios.html">Servicios</a>
-                   <a href="/contacto/contacto.html">Contacto</a>   
+                   <a href="./servicios/servicios.html">Servicios</a>
+                   <a href="./contacto/contacto.html">Contacto</a>   
             </div>
         </header>
         `;
