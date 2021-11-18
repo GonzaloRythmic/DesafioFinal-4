@@ -15,7 +15,7 @@ function headerComponent (el){
             </div>
         </div>
     <header class="bienvenida__header">
-            <a href="../index.html"><img class="bienvenida__header__img" src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/Logo-Gonzalo.png?raw=true"></a>
+            <a href="./index.html"><img class="bienvenida__header__img" src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/Logo-Gonzalo.png?raw=true"></a>
             <div class="bienvenida__header__menu">
                 <div class="bienvenida__burguer-button">
                     <img src="https://github.com/GonzaloRythmic/DesafioFinal-4/blob/master/img/burger.png?raw=true" alt="">

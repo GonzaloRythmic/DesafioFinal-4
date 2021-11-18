@@ -19,10 +19,7 @@ body{
     background-size: cover;
     display: inherit;
 }
-@media (min-width: 769px) {
-    
 
-}
 .bienvenida__header__img{
     width: 122px;
     height: 122px;
@@ -36,10 +33,12 @@ body{
 .bienvenida__header{
     display: flex;
     justify-content: space-between;
+    background-color: linear-gradient(107.17deg, #408195 29.35%, rgba(0, 210, 135, 0.8) 78.73%);
+
 }
 @media (min-width: 729px){
     .bienvenida__header{
-       
+        background-color: linear-gradient(107.17deg, #408195 29.35%, rgba(0, 210, 135, 0.8) 78.73%);
     }
 }
 .bienvenida__header--contacto{
@@ -206,11 +205,11 @@ body{
 }
 .proximamente{
     text-align: center;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 .proximamente__title{
     font-family: "Poppins";
-    font-size: 48px;
+    font-size: 18px;
     color: red;
 }
 @media (min-width: 729px){
@@ -244,6 +243,7 @@ body{
 @media(min-width: 729px){
     .form{
         display: flex;
+        max-width: 1280px;
     }
 }
 .form__title{
@@ -305,15 +305,14 @@ body{
 }
 @media (min-width: 729px){
     .footer__img-conteiner--redes{
-        padding-top: 4%;
-        padding-bottom: 20%;
-        padding-right: 5%;
+       margin-top: 3%;
     }
 }
 @media (min-width: 729px){
     .footer-conteiner{
         display: flex;
         justify-content: space-between;
+        
     }
 }
 

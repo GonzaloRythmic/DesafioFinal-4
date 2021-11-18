@@ -83,6 +83,8 @@ body{
     width: 262px;
     height: 33px;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .estamos-trabajando__img{
     max-width: 200px;
