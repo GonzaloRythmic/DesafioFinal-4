@@ -80,7 +80,7 @@ body{
     color: #FC6F50
 }
 .portfolio__url-conteiner{
-    width: 262px;
+    width: 100%;
     height: 33px;
     text-align: center;
     display: flex;
