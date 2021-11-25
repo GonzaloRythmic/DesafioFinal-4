@@ -2,3 +2,10 @@
 https://gonzalorythmic.github.io/DesafioFinal-4/
 
 PD:Me está llevando literalmente más de 3 meses poder terminarlo. Se que hay mucho que pulir, pero es lo que sale. Jaj
+Primeras correcciones:
+1) el modo mobile la pagina se rompía. Se arregló. 
+2) en el modo mobile la el header del html de contacto, se rellenó con color. 
+3) en el modo desktop, el formulario se rompía, se agrego un max-width para contenerlo.
+4) la redireccion del logo de la página al home, se arregló. 
+5) Se quitó algunos padding. 
+6) Queda un pequeño margen blanco bajo del footer, que no puedo sacar, pero que es mínimo. 
