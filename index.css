@@ -177,7 +177,7 @@ body{
 .mis-servicios__texto{
     color: #2C2C2C;
     text-align: center;
-    margin-top: 20%;
+    padding-top: 5px;
 }
 .mis-servicios__card__img{
     max-width: 200px;
@@ -243,7 +243,8 @@ body{
 @media(min-width: 729px){
     .form{
         display: flex;
-        max-width: 1280px;
+        flex-direction: column;
+        
     }
 }
 .form__title{
