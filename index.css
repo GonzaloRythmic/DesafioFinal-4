@@ -103,7 +103,7 @@ body{
 @media (min-width: 729px){
     .presentacion{
         height: 538px;
-        background-color: white;
+        background-color:white;
     }
 }
 .presentacion__conteiner{
@@ -154,7 +154,7 @@ body{
 .mis-servicios{
     width: 100%;
     height: 1700px;
-    background-color: #FAFAFA;
+    background-color:silver;
 }
 @media (min-width: 729px){
     .mis-servicios{
@@ -243,8 +243,10 @@ body{
 @media(min-width: 729px){
     .form{
         display: flex;
-        flex-direction: column;
-        
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: row;
+        max-width: 960px;
     }
 }
 .form__title{
@@ -287,12 +289,11 @@ body{
 .footer{
     background-color: #2C2C2C;
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 @media (min-width: 729px){
     .footer{
         text-align: center;
-        height: 200px;
     }
 }
 .footer__img-conteiner, .footer__img-conteiner--redes{
@@ -306,7 +307,7 @@ body{
 }
 @media (min-width: 729px){
     .footer__img-conteiner--redes{
-       margin-top: 3%;
+       padding: 15px 8px
     }
 }
 @media (min-width: 729px){
