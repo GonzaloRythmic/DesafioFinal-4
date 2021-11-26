@@ -9,3 +9,8 @@ Primeras correcciones:
 4) la redireccion del logo de la página al home, se arregló. 
 5) Se quitó algunos padding. 
 6) Queda un pequeño margen blanco bajo del footer, que no puedo sacar, pero que es mínimo. 
+
+Segundas correcciones:
+1)Se quita margen debajo del footer.
+2)El form se rompía en el modo desktop.
+3)Se arreglaron algunos espacios vacios que quedaban fuera de lugar. 
