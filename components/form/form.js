@@ -1,3 +1,48 @@
+function sendData(formEl, inputs) {
+  formEl.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+
+    const object = Object.fromEntries(formData.entries());
+
+    const message = `
+        Nombre del usuario: ${object.userName} <br> <br>
+        Mail: ${object.userEmail} <br> <br>
+        Mensaje: ${object.message}
+      `;
+
+    fetch("https://apx-api.vercel.app/api/utils/dwf", {
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+
+      body: JSON.stringify({
+        to: "gonzalocortez1991@hotmail.com",
+
+        message: message,
+      }),
+    })
+      .then(() => {
+        alert(
+          "Mensaje enviado. Gracias, " + object.userName + " por cominucarte!"
+        );
+
+        inputs.forEach((input) => {
+          input.value = "";
+        });
+      })
+      .catch(() => {
+        alert(
+          "Error al enviar, revise haber completado los campos correctamente"
+        );
+      });
+  });
+}
+
+
 function formComponent (el){
     const newEL = document.createElement("div");
 
@@ -20,6 +65,13 @@ function formComponent (el){
             <button class="form__button"><div class="form__button-text" >Enviar</div></button>
         </div>
     </form>`;
+    const form = contactEl.querySelector(".form");
+    const inputs = contactEl.querySelectorAll(".form__input");
+  
+    sendData(form, inputs);
 
     el.appendChild(newEL);
 }
+
+    
+

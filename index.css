@@ -261,15 +261,15 @@ body{
     color: #FAFAFA;
 }
 .form__input{
-    width: 335px;
+    width: 100%;
     height: 45px;
 }
 .form__input__textarea{
     height: 144px;
-    width: 335px;
+    width: 100%;
 }
 .form__button{
-    width: 335px;
+    width: 100%;
     height: 45px;
     background-color: #2C2C2C;
     margin-top: 50px;
