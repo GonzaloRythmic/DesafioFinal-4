@@ -14,3 +14,8 @@ Segundas correcciones:
 1)Se quita margen debajo del footer.
 2)El form se rompía en el modo desktop.
 3)Se arreglaron algunos espacios vacios que quedaban fuera de lugar. 
+
+Terceras correcciones:
+1) Los inputs, text area y el button se salen del contenedor. Arreglado.
+2) padding del form, que empuja los bordes en resoluciones de tablets. Se quitó el padding.
+3) El listener del contacto sólo se usa en la página contacto/contacto.js pero no en la landing. Arreglado.

@@ -44,19 +44,19 @@ function sendData(formEl, inputs) {
 
 
 function formComponent (el){
-    const newEL = document.createElement("div");
+    const contactEl = document.createElement("div");
 
-    newEL.innerHTML = `
+    contactEl.innerHTML = `
     <form class="form">
         <h2 class="form__title">Escribeme</h2>
         <div class="form--conteiner">
             <label class="label__name" for="input-name">
             <h2 class="form__subtitle">Nombre</h2>
-            <input class="form__input" type="text" id="input-name">
+            <input class="form__input" type="text" name="userName" id="input-name">
             </label>
             <label for="input-email" class="label__email">
                 <h2 class="form__subtitle">Email</h2>
-                <input class="form__input" type="text" id="input-email">
+                <input class="form__input" type="text" name="userEmail" id="input-email">
             </label>
             <label for="input-message" class="label__message">
                 <h2 class="form__subtitle">Mensaje</h2>
@@ -69,9 +69,9 @@ function formComponent (el){
     const inputs = contactEl.querySelectorAll(".form__input");
   
     sendData(form, inputs);
-
-    el.appendChild(newEL);
-}
-
+    
+    el.appendChild(contactEl);
+  }
+  
     
 
